@@ -4,6 +4,15 @@
 public class User {
     private String sname;
     private String password;
+    private Boolean sex;
+
+    public Boolean getSex() {
+        return sex;
+    }
+
+    public void setSex(Boolean sex) {
+        this.sex = sex;
+    }
 
     public String getSname() {
         return sname;
